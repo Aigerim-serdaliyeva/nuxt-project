@@ -48,6 +48,15 @@
 import CommentForm from '../../components/main/CommentForm.vue'
 import Comment from '../../components/main/Comment.vue'
 export default {
+  // head() {
+  //   return {
+  //     title: `${this.post.title} | ${process.env.appname}`,
+  //     meta: [
+  //       {hid: `post-${this.post._id}`, name: 'description', content: this.post.title},
+  //       {hid: `post-${this.post._id}`, name: 'keywords', content: 'post, javascript'},
+  //     ]
+  //   }
+  // },
   components: {
     Comment,
     CommentForm
